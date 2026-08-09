@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de Privacidade do aplicativo StickerLab, publicado pela FlavioCreative.">
+  <title>Política de Privacidade — StickerLab</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f5f7f2;
+      --surface: #ffffff;
+      --text: #172016;
+      --muted: #5e685b;
+      --line: #dce3d8;
+      --accent: #67a900;
+      --accent-soft: #e8f7cf;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #10140f;
+        --surface: #171c16;
+        --text: #edf4e9;
+        --muted: #b7c2b2;
+        --line: #30382d;
+        --accent: #a7f432;
+        --accent-soft: #26351a;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main { width: min(920px, calc(100% - 32px)); margin: 32px auto; }
+    article {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: clamp(24px, 5vw, 64px);
+      box-shadow: 0 14px 50px rgb(0 0 0 / 8%);
+    }
+    .eyebrow { color: var(--accent); font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+    h1 { margin: .3rem 0 1rem; font-size: clamp(2rem, 6vw, 3.6rem); line-height: 1.05; }
+    h2 { margin-top: 2.2rem; padding-top: .6rem; font-size: 1.45rem; }
+    h3 { margin-top: 1.5rem; font-size: 1.08rem; }
+    p, li { max-width: 76ch; }
+    a { color: var(--accent); text-underline-offset: 3px; }
+    .summary {
+      margin: 1.6rem 0;
+      padding: 18px 20px;
+      border-radius: 16px;
+      background: var(--accent-soft);
+      border-left: 5px solid var(--accent);
+    }
+    .meta { color: var(--muted); }
+    .contact {
+      margin-top: 2.5rem;
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+    }
+    footer { padding: 24px 8px; text-align: center; color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+<main>
+  <article>
+    <div class="eyebrow">StickerLab · FlavioCreative</div>
+    <h1>Política de Privacidade</h1>
+    <p class="meta"><strong>Última atualização e vigência:</strong> 9 de agosto de 2026</p>
+
+    <div class="summary">
+      <strong>Em resumo:</strong> imagens, vídeos, projetos e edições são processados localmente no aparelho. O StickerLab não exige conta e a FlavioCreative não mantém servidores próprios para receber o conteúdo criado. Serviços do Google processam dados técnicos para anúncios, consentimento e compras.
+    </div>
+
+    <p>Esta Política descreve como o aplicativo <strong>StickerLab</strong> (identificador Android <code>com.flaviocreative.stickerlab</code>), desenvolvido e publicado por <strong>FlavioCreative</strong>, acessa, usa, armazena e compartilha informações.</p>
+
+    <h2>1. Informações e conteúdos acessados</h2>
+    <h3>Conteúdo escolhido pelo usuário</h3>
+    <p>Após uma ação do usuário, o StickerLab pode acessar imagens, vídeos, camadas, textos, legendas, filtros, recortes, nomes de pacote e autor, emojis, backups e outros elementos necessários para criar figurinhas. Esse conteúdo é usado para editar, renderizar, salvar, restaurar, exportar e compartilhar. A FlavioCreative não recebe esse conteúdo em servidores próprios.</p>
+
+    <h3>Dados armazenados localmente</h3>
+    <ul>
+      <li>projetos, rascunhos, miniaturas, arquivos renderizados e pacotes;</li>
+      <li>preferências do aplicativo;</li>
+      <li>estado local do Plano Pro e informações necessárias para restaurar a compra;</li>
+      <li>estado do consentimento de anúncios e benefícios temporários liberados por anúncio recompensado.</li>
+    </ul>
+    <p>O aplicativo não inclui seus dados privados no backup automático geral do Android. Backups exportados manualmente ficam no local escolhido pelo usuário.</p>
+
+    <h3>Contato com o suporte</h3>
+    <p>Ao entrar em contato por e-mail, o usuário pode fornecer endereço de e-mail, nome, conteúdo da mensagem e anexos. Essas informações são utilizadas para responder, prestar suporte, investigar falhas e manter registros necessários do atendimento.</p>
+
+    <h3>Serviços de terceiros</h3>
+    <p>O StickerLab integra Google Mobile Ads (AdMob), Google User Messaging Platform (UMP) e Google Play Billing. Dependendo do serviço, região, aparelho e consentimento, Google e parceiros de anúncios podem processar endereço IP e localização aproximada derivada do IP; identificadores do aparelho ou de publicidade; informações do aparelho, sistema, idioma, aplicativo e versão; interações e desempenho de anúncios; diagnósticos, segurança e prevenção de fraude; além de produto, estado e token de compra.</p>
+    <p>A FlavioCreative não recebe dados completos de cartão ou forma de pagamento. A cobrança é processada pela Google Play.</p>
+
+    <h2>2. Como as informações são usadas</h2>
+    <ul>
+      <li>fornecer ferramentas de criação e edição;</li>
+      <li>salvar e restaurar projetos e backups solicitados;</li>
+      <li>exportar, compartilhar e adicionar pacotes a aplicativos compatíveis;</li>
+      <li>exibir anúncios nas áreas gratuitas;</li>
+      <li>solicitar e respeitar escolhas de consentimento;</li>
+      <li>processar, confirmar e restaurar o Plano Pro;</li>
+      <li>prevenir fraude, abuso e problemas de segurança;</li>
+      <li>responder ao suporte e cumprir obrigações legais.</li>
+    </ul>
+    <p>Conforme a legislação aplicável, o tratamento pode se basear na execução do serviço, consentimento, obrigação legal e interesses legítimos relacionados à segurança, suporte e funcionamento do aplicativo.</p>
+
+    <h2>3. Compartilhamento</h2>
+    <p>A FlavioCreative <strong>não vende dados pessoais</strong>. Informações podem ser processadas ou compartilhadas com:</p>
+    <ul>
+      <li><strong>Google e parceiros de anúncios</strong>, para entrega, medição e, quando autorizada, personalização de anúncios, segurança e prevenção de fraude;</li>
+      <li><strong>Google Play</strong>, para processar, confirmar e restaurar compras;</li>
+      <li><strong>WhatsApp ou WhatsApp Business</strong>, quando o usuário escolhe adicionar um pacote ou compartilhar conteúdo;</li>
+      <li><strong>outros aplicativos escolhidos pelo usuário</strong> no menu de compartilhamento;</li>
+      <li><strong>autoridades legalmente autorizadas</strong>, quando houver obrigação válida.</li>
+    </ul>
+    <p>Ao adicionar um pacote, figurinhas e metadados necessários, como nome e publicador, são disponibilizados ao aplicativo escolhido. O StickerLab não acessa contatos, conversas nem mensagens do WhatsApp.</p>
+
+    <h2>4. Anúncios e escolhas de privacidade</h2>
+    <p>A versão gratuita pode exibir anúncios banner, nativo e intersticial. Anúncios recompensados poderão aparecer quando disponíveis e escolhidos pelo usuário. Usuários Pro não recebem anúncios controlados pelo StickerLab.</p>
+    <p>Quando exigido, o aplicativo apresenta a mensagem de consentimento da Google UMP antes de solicitar anúncios. A opção <strong>Privacidade</strong> dentro do StickerLab permite revisar escolhas quando disponibilizada. O usuário também pode gerenciar o identificador de publicidade nas configurações do Android ou da conta Google.</p>
+
+    <h2>5. Compras e Plano Pro</h2>
+    <p>O Plano Pro é uma compra digital única processada pela Google Play. A Google administra cobrança, formas de pagamento, recibos e vínculo à conta Google. O StickerLab consulta a loja para confirmar a titularidade, liberar recursos e restaurar o acesso. Reembolsos e cancelamentos seguem as regras da Google Play e a legislação aplicável.</p>
+
+    <h2>6. Segurança, retenção e exclusão</h2>
+    <p>O conteúdo fica, em regra, no armazenamento privado do aplicativo. O compartilhamento utiliza acesso limitado ao aplicativo escolhido pelo usuário. A FlavioCreative adota medidas razoáveis de proteção, embora nenhum método seja totalmente imune a riscos.</p>
+    <p>Dados locais permanecem até o usuário excluir o projeto, limpar os dados ou desinstalar o StickerLab. Backups e arquivos exportados permanecem no destino escolhido até serem apagados. Registros de suporte são mantidos pelo período necessário para atendimento, prevenção de abuso e obrigações legais. Terceiros aplicam seus próprios prazos.</p>
+    <p>Para excluir dados locais, apague projetos e pacotes, exclua os backups no destino escolhido, limpe os dados nas configurações do Android ou desinstale o aplicativo. A desinstalação não remove arquivos exportados, conteúdo enviado a outros aplicativos nem o registro da compra na Google Play.</p>
+    <p>Para excluir informações enviadas ao suporte, escreva para <a href="mailto:flaviocoelhotoledo@gmail.com?subject=Privacidade%20%E2%80%94%20exclus%C3%A3o%20de%20dados">flaviocoelhotoledo@gmail.com</a> com o assunto “Privacidade — exclusão de dados”.</p>
+
+    <h2>7. Direitos do usuário</h2>
+    <p>Dependendo da região, o usuário pode ter direitos de confirmação, informação, acesso, correção, portabilidade, oposição, limitação, revogação de consentimento e exclusão. No Brasil, esses direitos são previstos, entre outras normas, pela LGPD. Solicitações podem ser enviadas ao contato abaixo e serão respondidas no prazo legal aplicável.</p>
+
+    <h2>8. Transferências internacionais</h2>
+    <p>Google, WhatsApp e outros prestadores podem processar informações em países diferentes daquele onde o usuário reside. Quando aplicável, esses prestadores são responsáveis pelos mecanismos legais e medidas adequadas às transferências realizadas por seus serviços.</p>
+
+    <h2>9. Crianças e adolescentes</h2>
+    <p>O StickerLab não é direcionado especificamente a crianças menores de 13 anos e a FlavioCreative não busca coletar intencionalmente seus dados pessoais. Pais ou responsáveis que acreditarem que uma criança enviou dados diretamente à FlavioCreative podem solicitar a exclusão. A classificação etária, o público-alvo declarado na loja, a supervisão dos responsáveis e as normas regionais devem ser respeitados.</p>
+
+    <h2>10. Políticas de terceiros</h2>
+    <ul>
+      <li><a href="https://policies.google.com/privacy">Política de Privacidade do Google</a></li>
+      <li><a href="https://policies.google.com/technologies/partner-sites">Como o Google utiliza informações de aplicativos</a></li>
+      <li><a href="https://policies.google.com/technologies/ads">Publicidade e privacidade no Google</a></li>
+      <li><a href="https://www.whatsapp.com/legal/privacy-policy">Política de Privacidade do WhatsApp</a></li>
+    </ul>
+    <p>Esta página não contém ferramentas próprias de análise, publicidade ou rastreamento. O provedor de hospedagem poderá manter registros técnicos conforme a política dele.</p>
+
+    <h2>11. Alterações</h2>
+    <p>A política pode ser atualizada para refletir mudanças no StickerLab, nos serviços usados ou na legislação. A versão vigente indicará a data da atualização. Alterações relevantes poderão ser comunicadas no aplicativo ou nesta página.</p>
+
+    <div class="contact">
+      <h2>12. Contato</h2>
+      <p><strong>Responsável:</strong> FlavioCreative<br>
+      <strong>Aplicativo:</strong> StickerLab<br>
+      <strong>Identificador:</strong> <code>com.flaviocreative.stickerlab</code><br>
+      <strong>E-mail:</strong> <a href="mailto:flaviocoelhotoledo@gmail.com">flaviocoelhotoledo@gmail.com</a></p>
+    </div>
+  </article>
+  <footer>© 2026 FlavioCreative · StickerLab</footer>
+</main>
+</body>
+</html>
