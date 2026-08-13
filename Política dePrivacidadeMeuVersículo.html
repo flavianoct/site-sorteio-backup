@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173e35">
+  <meta name="description" content="Política de Privacidade do aplicativo Meu Versículo, desenvolvido por Flavio Creative.">
+  <title>Política de Privacidade — Meu Versículo</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7f2;
+      --surface: #ffffff;
+      --surface-soft: #eaf1ec;
+      --ink: #17231f;
+      --muted: #596861;
+      --brand: #173e35;
+      --brand-strong: #0f3028;
+      --accent: #bd783b;
+      --line: #dbe4de;
+      --focus: #d8873f;
+      --shadow: 0 18px 50px rgba(20, 52, 44, .09);
+      --radius: 24px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 24px;
+    }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 8% 3%, rgba(189, 120, 59, .10), transparent 27rem),
+        linear-gradient(180deg, #eef4ef 0, var(--bg) 28rem);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: #176752;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+    }
+
+    a:hover { color: var(--accent); }
+
+    a:focus-visible,
+    .top-link:focus-visible {
+      outline: 3px solid var(--focus);
+      outline-offset: 4px;
+      border-radius: 6px;
+    }
+
+    .skip-link {
+      position: fixed;
+      z-index: 50;
+      top: 12px;
+      left: 12px;
+      padding: 10px 14px;
+      border-radius: 10px;
+      background: var(--brand);
+      color: #fff;
+      transform: translateY(-150%);
+    }
+
+    .skip-link:focus { transform: translateY(0); }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 76px 24px 82px;
+      background: var(--brand);
+      color: #fff;
+    }
+
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .hero::before {
+      width: 380px;
+      height: 380px;
+      top: -220px;
+      right: -80px;
+      border: 1px solid rgba(255, 255, 255, .16);
+      box-shadow: 0 0 0 54px rgba(255, 255, 255, .035), 0 0 0 108px rgba(255, 255, 255, .025);
+    }
+
+    .hero::after {
+      width: 230px;
+      height: 230px;
+      bottom: -165px;
+      left: 4%;
+      background: rgba(189, 120, 59, .18);
+      filter: blur(2px);
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      width: min(1120px, 100%);
+      margin: 0 auto;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 34px;
+      color: #dcebe4;
+      font-size: .88rem;
+      font-weight: 750;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    .brand-mark {
+      display: grid;
+      width: 42px;
+      height: 42px;
+      place-items: center;
+      border: 1px solid rgba(255, 255, 255, .24);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, .10);
+      color: #ffd2ab;
+      font-family: Georgia, serif;
+      font-size: 1rem;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      max-width: 800px;
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2.45rem, 6vw, 4.75rem);
+      font-weight: 500;
+      letter-spacing: -.035em;
+      line-height: 1.03;
+    }
+
+    .hero-summary {
+      max-width: 700px;
+      margin: 24px 0 0;
+      color: #d5e4dd;
+      font-size: clamp(1rem, 2vw, 1.18rem);
+    }
+
+    .updated {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin-top: 28px;
+      padding: 9px 13px;
+      border: 1px solid rgba(255, 255, 255, .18);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, .08);
+      color: #f2f8f5;
+      font-size: .88rem;
+      font-weight: 650;
+    }
+
+    .updated::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #e8a86d;
+      box-shadow: 0 0 0 4px rgba(232, 168, 109, .13);
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 260px minmax(0, 780px);
+      gap: 48px;
+      width: min(1120px, calc(100% - 48px));
+      margin: -34px auto 72px;
+      align-items: start;
+    }
+
+    .toc {
+      position: sticky;
+      top: 24px;
+      z-index: 2;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: rgba(255, 255, 255, .94);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(12px);
+    }
+
+    .toc-title {
+      display: block;
+      margin-bottom: 12px;
+      color: var(--brand);
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .toc ol {
+      display: grid;
+      gap: 4px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      counter-reset: toc;
+    }
+
+    .toc li { counter-increment: toc; }
+
+    .toc a {
+      display: grid;
+      grid-template-columns: 24px 1fr;
+      gap: 6px;
+      padding: 7px 8px;
+      border-radius: 9px;
+      color: var(--muted);
+      font-size: .83rem;
+      line-height: 1.35;
+      text-decoration: none;
+    }
+
+    .toc a::before {
+      content: counter(toc, decimal-leading-zero);
+      color: #87958e;
+      font-size: .68rem;
+      font-weight: 800;
+      letter-spacing: .03em;
+    }
+
+    .toc a:hover {
+      background: var(--surface-soft);
+      color: var(--brand);
+    }
+
+    .document {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .intro {
+      margin: 0;
+      padding: 36px 42px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(135deg, #fff, #f4f8f5);
+      color: #34453e;
+      font-size: 1.05rem;
+    }
+
+    section {
+      padding: 36px 42px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    section:last-child { border-bottom: 0; }
+
+    h2 {
+      display: flex;
+      gap: 14px;
+      align-items: baseline;
+      margin: 0 0 18px;
+      color: var(--brand-strong);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.38rem, 3vw, 1.75rem);
+      font-weight: 600;
+      line-height: 1.25;
+    }
+
+    h2 .number {
+      flex: 0 0 auto;
+      color: var(--accent);
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size: .75rem;
+      font-weight: 850;
+      letter-spacing: .09em;
+    }
+
+    p { margin: 0 0 16px; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      display: grid;
+      gap: 9px;
+      margin: 14px 0 20px;
+      padding-left: 22px;
+    }
+
+    li::marker { color: var(--accent); }
+
+    .note {
+      margin-top: 20px;
+      padding: 18px 20px;
+      border-left: 4px solid var(--accent);
+      border-radius: 4px 14px 14px 4px;
+      background: #fff7ef;
+      color: #493b30;
+    }
+
+    .contact-card {
+      display: grid;
+      gap: 8px;
+      margin-top: 18px;
+      padding: 22px;
+      border: 1px solid #cbdad2;
+      border-radius: 16px;
+      background: var(--surface-soft);
+    }
+
+    .contact-card strong { color: var(--brand); }
+
+    footer {
+      padding: 30px 24px 54px;
+      color: var(--muted);
+      text-align: center;
+      font-size: .9rem;
+    }
+
+    footer strong { color: var(--brand); }
+
+    .top-link {
+      position: fixed;
+      z-index: 10;
+      right: 22px;
+      bottom: 22px;
+      display: grid;
+      width: 48px;
+      height: 48px;
+      place-items: center;
+      border: 1px solid rgba(255, 255, 255, .18);
+      border-radius: 16px;
+      background: var(--brand);
+      box-shadow: 0 12px 30px rgba(15, 48, 40, .22);
+      color: #fff;
+      font-size: 1.25rem;
+      text-decoration: none;
+    }
+
+    @media (max-width: 900px) {
+      .hero { padding-top: 54px; }
+      .layout {
+        grid-template-columns: 1fr;
+        gap: 22px;
+        width: min(760px, calc(100% - 28px));
+        margin-top: -30px;
+      }
+      .toc { position: static; }
+      .toc ol { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 600px) {
+      body { font-size: 15.5px; }
+      .hero { padding: 42px 20px 64px; }
+      .brand { margin-bottom: 26px; }
+      .hero-summary { margin-top: 18px; }
+      .layout { width: min(100% - 20px, 760px); }
+      .toc { padding: 18px; border-radius: 16px; }
+      .toc ol { grid-template-columns: 1fr; }
+      .document { border-radius: 18px; }
+      .intro, section { padding: 28px 22px; }
+      h2 { gap: 10px; }
+      .top-link { right: 14px; bottom: 14px; }
+    }
+
+    @media print {
+      body { background: #fff; color: #000; }
+      .hero { padding: 28px 0; background: #fff; color: #000; }
+      .brand, .hero-summary, .updated { color: #333; }
+      .brand-mark { border-color: #999; background: #fff; }
+      .layout { display: block; width: 100%; margin: 0; }
+      .toc, .top-link, .skip-link { display: none; }
+      .document { border: 0; box-shadow: none; }
+      .intro, section { padding: 20px 0; break-inside: avoid; }
+      a { color: #000; text-decoration: none; }
+    }
+  </style>
+</head>
+<body id="top">
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">MV</span> Meu Versículo</div>
+      <h1>Política de Privacidade</h1>
+      <p class="hero-summary">Transparência sobre os dados locais, notificações, anúncios e serviços utilizados pelo aplicativo.</p>
+      <div class="updated">Última atualização: 13 de agosto de 2026</div>
+    </div>
+  </header>
+
+  <main class="layout" id="conteudo">
+    <nav class="toc" aria-label="Índice da política">
+      <span class="toc-title">Nesta página</span>
+      <ol>
+        <li><a href="#funcionalidades">Funcionalidades</a></li>
+        <li><a href="#dados-locais">Dados no dispositivo</a></li>
+        <li><a href="#quiz">Quiz bíblico</a></li>
+        <li><a href="#firebase">Firebase</a></li>
+        <li><a href="#publicidade">Publicidade</a></li>
+        <li><a href="#notificacoes">Notificações</a></li>
+        <li><a href="#biblia">Bíblia offline</a></li>
+        <li><a href="#compartilhamento">Compartilhamento</a></li>
+        <li><a href="#nao-solicitamos">O que não solicitamos</a></li>
+        <li><a href="#retencao">Retenção e exclusão</a></li>
+        <li><a href="#seguranca">Segurança</a></li>
+        <li><a href="#criancas">Crianças e adolescentes</a></li>
+        <li><a href="#terceiros">Serviços de terceiros</a></li>
+        <li><a href="#direitos">Direitos do usuário</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#alteracoes">Alterações</a></li>
+      </ol>
+    </nav>
+
+    <article class="document">
+      <p class="intro">Esta Política de Privacidade explica como o aplicativo <strong>Meu Versículo</strong> (“Aplicativo”), desenvolvido por <strong>Flavio Creative</strong>, trata informações durante sua utilização. Ao utilizar o Aplicativo, você concorda com as práticas descritas nesta Política. Caso não concorde, poderá deixar de utilizar ou desinstalar o Aplicativo.</p>
+
+      <section id="funcionalidades">
+        <h2><span class="number">01</span> Funcionalidades do Aplicativo</h2>
+        <p>O Meu Versículo oferece, entre outras funcionalidades:</p>
+        <ul>
+          <li>versículo diário e leitura da Bíblia Almeida;</li>
+          <li>download da Bíblia completa para leitura offline;</li>
+          <li>favoritos, histórico e compartilhamento de versículos;</li>
+          <li>notificações opcionais e lembretes de retorno;</li>
+          <li>quiz bíblico offline, pontuação, recordes, níveis e distintivos;</li>
+          <li>publicidade por meio do Google AdMob;</li>
+          <li>consulta técnica do benefício de remoção de anúncios, quando disponível.</li>
+        </ul>
+        <p>O Aplicativo não exige cadastro com nome, e-mail ou senha para acessar suas funções principais.</p>
+      </section>
+
+      <section id="dados-locais">
+        <h2><span class="number">02</span> Informações armazenadas somente no dispositivo</h2>
+        <p>Para oferecer suas funcionalidades, o Aplicativo pode armazenar localmente:</p>
+        <ul>
+          <li>versículos favoritos e histórico de versículos exibidos;</li>
+          <li>tema visual e preferências de notificações;</li>
+          <li>horário escolhido para o versículo diário;</li>
+          <li>dia da última abertura, utilizado para os lembretes de retorno;</li>
+          <li>uma identificação aleatória da instalação, utilizada somente para personalizar o versículo diário;</li>
+          <li>Bíblia baixada para leitura offline;</li>
+          <li>pontuação do quiz, recorde, número de rodadas, nível e distintivos;</li>
+          <li>limites locais de frequência dos anúncios intersticiais;</li>
+          <li>imagens temporárias criadas para compartilhamento.</li>
+        </ul>
+        <p>Essas informações permanecem no dispositivo e não são enviadas pelo Aplicativo a um servidor próprio. Elas podem ser removidas ao limpar os dados do Aplicativo ou desinstalá-lo, observadas as configurações de backup do sistema Android.</p>
+        <p class="note">A identificação aleatória usada no versículo diário não contém nome, e-mail, número de telefone ou outro dado diretamente identificável.</p>
+      </section>
+
+      <section id="quiz">
+        <h2><span class="number">03</span> Quiz bíblico</h2>
+        <p>As perguntas e respostas do quiz são geradas localmente a partir da Bíblia armazenada no dispositivo. O quiz não utiliza um serviço de inteligência artificial remoto e não envia respostas, pontuação ou desempenho do usuário para uma IA.</p>
+        <p>A pontuação, os recordes, as rodadas concluídas e os distintivos ficam armazenados localmente. Eles representam progresso pessoal e não constituem um ranking público ou global.</p>
+      </section>
+
+      <section id="firebase">
+        <h2><span class="number">04</span> Firebase</h2>
+        <p>O Aplicativo utiliza serviços do <strong>Google Firebase</strong>, incluindo:</p>
+        <ul>
+          <li><strong>Firebase Authentication:</strong> pode criar um identificador técnico anônimo;</li>
+          <li><strong>Cloud Firestore:</strong> pode consultar o status técnico do benefício de remoção de anúncios.</li>
+        </ul>
+        <p>Esse identificador anônimo não contém nome ou e-mail informado pelo usuário. O Firebase pode processar dados técnicos necessários para autenticação, segurança, prevenção a fraudes e funcionamento dos serviços.</p>
+        <p>Saiba mais em <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Privacidade e Segurança no Firebase</a>.</p>
+      </section>
+
+      <section id="publicidade">
+        <h2><span class="number">05</span> Publicidade — Google AdMob</h2>
+        <p>O Aplicativo pode exibir anúncios fornecidos pelo <strong>Google AdMob</strong>, incluindo:</p>
+        <ul>
+          <li>banners;</li>
+          <li>anúncios nativos integrados às listas ou telas de resultado;</li>
+          <li>anúncios intersticiais exibidos em transições naturais, com limites de frequência.</li>
+        </ul>
+        <p>Não são exibidos anúncios intersticiais durante a leitura da Bíblia nem no meio de uma pergunta do quiz.</p>
+        <p>O Google AdMob e seus parceiros podem tratar identificadores de publicidade, endereço IP, características do dispositivo e do sistema operacional, informações de rede, diagnóstico e desempenho, visualizações, impressões e interações com anúncios, além de informações necessárias para segurança e prevenção a fraudes.</p>
+        <p>Essas informações podem ser usadas para exibir, limitar, medir e proteger a publicidade. Quando exigido pela legislação aplicável, o Aplicativo solicitará consentimento e disponibilizará uma opção para gerenciar escolhas de privacidade.</p>
+        <p>Consulte a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de Privacidade do Google</a> e as <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">informações sobre publicidade do Google</a>.</p>
+      </section>
+
+      <section id="notificacoes">
+        <h2><span class="number">06</span> Notificações</h2>
+        <p>As notificações são opcionais e dependem da permissão concedida no Android e da ativação feita pelo usuário.</p>
+        <p>O Aplicativo pode enviar:</p>
+        <ul>
+          <li>um versículo diário no horário escolhido;</li>
+          <li>lembretes de retorno após aproximadamente 3, 7, 14 e 30 dias sem abertura.</li>
+        </ul>
+        <p>Para esses lembretes, apenas o dia da última abertura é salvo localmente. Essa informação não é enviada pelo Aplicativo para um servidor próprio. As notificações podem ser desativadas a qualquer momento nas configurações do Aplicativo ou do dispositivo.</p>
+      </section>
+
+      <section id="biblia">
+        <h2><span class="number">07</span> Download e leitura da Bíblia</h2>
+        <p>O Aplicativo pode baixar uma base pública da Bíblia Almeida para oferecer os 66 livros, pesquisa e leitura offline. Durante o download, o servidor de hospedagem e os provedores de rede podem receber informações técnicas comuns de uma conexão, como endereço IP, data, horário e características da solicitação.</p>
+        <p>Após o download, a Bíblia permanece armazenada no dispositivo. O Aplicativo não envia para um servidor próprio os livros, capítulos, pesquisas ou versículos que o usuário lê.</p>
+      </section>
+
+      <section id="compartilhamento">
+        <h2><span class="number">08</span> Compartilhamento</h2>
+        <p>O compartilhamento é iniciado somente pelo usuário. O Aplicativo pode gerar e compartilhar:</p>
+        <ul>
+          <li>texto de versículos;</li>
+          <li>cards de versículos em imagem;</li>
+          <li>pontuação, nível e distintivo do quiz;</li>
+          <li>link para a página do Aplicativo na Google Play.</li>
+        </ul>
+        <p>Ao escolher um aplicativo de destino, como WhatsApp, Instagram ou e-mail, o tratamento posterior do conteúdo passa a seguir a política de privacidade desse serviço.</p>
+        <p>As imagens são criadas temporariamente no armazenamento reservado ao Aplicativo e podem ser removidas pelo sistema ou ao limpar os dados do Aplicativo.</p>
+      </section>
+
+      <section id="nao-solicitamos">
+        <h2><span class="number">09</span> Informações que não solicitamos</h2>
+        <p>O Meu Versículo não solicita acesso a contatos, localização precisa, câmera, microfone, fotos pessoais, mensagens privadas ou dados bancários para oferecer suas funções atuais.</p>
+        <p><strong>O Aplicativo não vende informações pessoais.</strong></p>
+      </section>
+
+      <section id="retencao">
+        <h2><span class="number">10</span> Retenção e exclusão</h2>
+        <p>Favoritos, preferências, Bíblia offline, progresso do quiz e outros dados locais permanecem no dispositivo enquanto o Aplicativo estiver instalado ou até serem apagados.</p>
+        <p>O identificador anônimo e o registro técnico do benefício de remoção de anúncios no Firebase podem ser mantidos pelo tempo necessário para funcionamento, restauração do benefício, segurança, prevenção a fraude e cumprimento de obrigações legais.</p>
+        <p>Como o Aplicativo não utiliza uma conta identificada por nome ou e-mail, uma solicitação relacionada ao identificador anônimo pode exigir informações técnicas adicionais para localizar o registro correto.</p>
+        <p>Solicitações de privacidade ou exclusão podem ser enviadas para <a href="mailto:flaviocoelhotoledo@gmail.com">flaviocoelhotoledo@gmail.com</a>.</p>
+      </section>
+
+      <section id="seguranca">
+        <h2><span class="number">11</span> Segurança</h2>
+        <p>São adotadas medidas razoáveis para limitar o tratamento às informações necessárias ao funcionamento do Aplicativo. Entretanto, nenhum método de armazenamento ou transmissão é totalmente seguro, e não é possível garantir segurança absoluta.</p>
+      </section>
+
+      <section id="criancas">
+        <h2><span class="number">12</span> Crianças e adolescentes</h2>
+        <p>O Aplicativo não foi criado para coletar intencionalmente dados pessoais de crianças. Pais ou responsáveis que acreditem que uma criança enviou dados pessoais diretamente ao desenvolvedor podem entrar em contato para avaliação e providências cabíveis.</p>
+        <p>A publicidade, quando exibida, segue as configurações aplicáveis do Google AdMob e as declarações realizadas para o público do Aplicativo na Google Play.</p>
+      </section>
+
+      <section id="terceiros">
+        <h2><span class="number">13</span> Serviços de terceiros</h2>
+        <p>O Aplicativo utiliza ou pode se comunicar com serviços externos, sujeitos às próprias políticas:</p>
+        <ul>
+          <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Play Services</a>;</li>
+          <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google AdMob</a>;</li>
+          <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Google Firebase</a>;</li>
+          <li>servidor utilizado para disponibilizar o arquivo público da Bíblia.</li>
+        </ul>
+      </section>
+
+      <section id="direitos">
+        <h2><span class="number">14</span> Direitos do usuário</h2>
+        <p>Conforme a legislação aplicável, inclusive a Lei Geral de Proteção de Dados Pessoais — LGPD, o usuário pode solicitar informações, correção, exclusão ou outras providências relacionadas a dados pessoais eventualmente tratados pelo desenvolvedor.</p>
+      </section>
+
+      <section id="contato">
+        <h2><span class="number">15</span> Contato</h2>
+        <p>Para dúvidas, solicitações ou assuntos relacionados à privacidade:</p>
+        <div class="contact-card">
+          <span><strong>Responsável:</strong> Flavio Creative</span>
+          <span><strong>E-mail:</strong> <a href="mailto:flaviocoelhotoledo@gmail.com">flaviocoelhotoledo@gmail.com</a></span>
+        </div>
+      </section>
+
+      <section id="alteracoes">
+        <h2><span class="number">16</span> Alterações nesta Política</h2>
+        <p>Esta Política poderá ser atualizada para refletir mudanças no Aplicativo, nos serviços utilizados ou na legislação. A data indicada no início identifica a versão mais recente.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <strong>Meu Versículo</strong><br>
+    Política de Privacidade · Flavio Creative · 2026
+  </footer>
+
+  <a class="top-link" href="#top" aria-label="Voltar ao topo">↑</a>
+</body>
+</html>
