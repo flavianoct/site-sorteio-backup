@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de Privacidade do aplicativo Sorteio Simples.">
+  <meta name="color-scheme" content="light dark">
+  <title>Política de Privacidade — Sorteio Simples</title>
+  <style>
+    :root {
+      --background: #f6f3ff;
+      --surface: #ffffff;
+      --surface-soft: #f0eaff;
+      --text: #211a2d;
+      --text-soft: #665d73;
+      --primary-dark: #4f24ad;
+      --border: #ddd4ea;
+      --notice: #fff4cf;
+      --notice-border: #d99b00;
+      --shadow: 0 18px 50px rgba(59, 32, 103, 0.10);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top left, rgba(127, 77, 220, 0.14), transparent 34rem), var(--background);
+      color: var(--text);
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--primary-dark);
+      overflow-wrap: anywhere;
+      text-underline-offset: 3px;
+    }
+
+    .page {
+      width: min(920px, calc(100% - 32px));
+      margin: 40px auto;
+    }
+
+    .hero,
+    .policy {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+
+    .hero {
+      padding: clamp(28px, 5vw, 52px);
+      border-radius: 30px 30px 12px 12px;
+      background: linear-gradient(135deg, rgba(111, 63, 213, 0.10), transparent 60%), var(--surface);
+    }
+
+    .app-label {
+      display: inline-flex;
+      margin: 0 0 14px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: var(--surface-soft);
+      color: var(--primary-dark);
+      font-size: 0.86rem;
+      font-weight: 750;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 6vw, 3.4rem);
+      line-height: 1.08;
+      letter-spacing: -0.045em;
+    }
+
+    .updated { margin: 18px 0 0; color: var(--text-soft); }
+
+    .notice {
+      margin-top: 22px;
+      padding: 14px 16px;
+      border-left: 4px solid var(--notice-border);
+      border-radius: 10px;
+      background: var(--notice);
+      color: #513800;
+    }
+
+    .policy {
+      margin-top: 14px;
+      padding: clamp(24px, 5vw, 52px);
+      border-radius: 12px 12px 30px 30px;
+    }
+
+    section + section {
+      margin-top: 38px;
+      padding-top: 30px;
+      border-top: 1px solid var(--border);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: clamp(1.25rem, 3vw, 1.65rem);
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+    }
+
+    h3 { margin: 22px 0 8px; font-size: 1.05rem; }
+    p { margin: 0 0 14px; }
+    ul { margin: 10px 0 14px; padding-left: 24px; }
+    li + li { margin-top: 6px; }
+
+    .summary,
+    .contact {
+      padding: 20px;
+      border-radius: 18px;
+      background: var(--surface-soft);
+    }
+
+    .contact { border: 1px solid var(--border); }
+
+    .placeholder {
+      padding: 1px 5px;
+      border-radius: 5px;
+      background: var(--notice);
+      color: #513800;
+      font-weight: 750;
+    }
+
+    footer {
+      padding: 24px 16px 8px;
+      color: var(--text-soft);
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 560px) {
+      .page { width: min(100% - 20px, 920px); margin: 10px auto 24px; }
+      .hero { border-radius: 22px 22px 10px 10px; }
+      .policy { border-radius: 10px 10px 22px 22px; }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #110f16;
+        --surface: #1c1823;
+        --surface-soft: #292135;
+        --text: #f2edf8;
+        --text-soft: #c5bbd0;
+        --primary-dark: #c9afff;
+        --border: #40364c;
+        --notice: #3d3217;
+        --notice-border: #f1bd3e;
+        --shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
+      }
+
+      .notice,
+      .placeholder { color: #ffe7a3; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="app-label">Sorteio Simples</p>
+      <h1>Política de Privacidade</h1>
+      <p class="updated">Última atualização: <time datetime="2026-08-21">21 de agosto de 2026</time></p>
+    </header>
+
+    <article class="policy">
+      <p>
+        Esta Política de Privacidade explica como o aplicativo <strong>Sorteio Simples</strong>,
+        identificado pelo pacote <code>br.com.sorteiosemrepeticao</code>, trata informações durante o uso de seus recursos.
+      </p>
+      <p>O responsável pelo aplicativo é <strong>Flavio Creative</strong>.</p>
+
+      <section>
+        <h2>1. Resumo</h2>
+        <div class="summary">
+          <ul>
+            <li>O aplicativo não exige criação de conta.</li>
+            <li>Não existe servidor próprio para armazenar nomes ou resultados.</li>
+            <li>Históricos e configurações são salvos localmente no aparelho.</li>
+            <li>Anúncios são fornecidos pelo Google AdMob.</li>
+            <li>O Google Nearby Connections conecta aparelhos próximos.</li>
+            <li>Resultados e imagens só são compartilhados quando o usuário escolhe essa opção.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>2. Informações inseridas pelo usuário</h2>
+        <p>Dependendo do recurso utilizado, o usuário pode informar:</p>
+        <ul>
+          <li>Intervalos numéricos e quantidade de números.</li>
+          <li>Nomes de participantes.</li>
+          <li>Nome de uma atividade ou sorteio em grupo.</li>
+          <li>Posições escolhidas no painel do grupo.</li>
+        </ul>
+        <p>
+          Essas informações são utilizadas exclusivamente para executar as funcionalidades solicitadas.
+          Nos sorteios comuns e no Painel manual, elas permanecem armazenadas localmente no aparelho.
+        </p>
+      </section>
+
+      <section>
+        <h2>3. Sorteio em Grupo</h2>
+        <p>
+          O Sorteio em Grupo permite que aparelhos próximos se comuniquem utilizando Wi‑Fi, Bluetooth
+          e outras tecnologias disponibilizadas pelo Google Nearby Connections.
+        </p>
+        <p>Quando uma pessoa participa de um grupo:</p>
+        <ul>
+          <li>O nome escolhido é enviado diretamente ao aparelho do organizador.</li>
+          <li>A posição selecionada aparece no painel dos aparelhos conectados.</li>
+          <li>O resultado é enviado aos participantes conectados.</li>
+          <li>Os aparelhos exibem um código de segurança que deve ser conferido antes da conexão.</li>
+        </ul>
+        <p>
+          A comunicação ocorre diretamente entre os dispositivos próximos e é criptografada. O desenvolvedor
+          não recebe nomes, posições ou resultados em um servidor próprio.
+        </p>
+        <p>
+          Durante a atividade, os nomes permanecem na memória dos aparelhos conectados. O nome de um vencedor
+          poderá permanecer no histórico local do organizador até que esse histórico seja apagado ou o aplicativo seja desinstalado.
+        </p>
+        <p><a href="https://developers.google.com/nearby/connections/overview" target="_blank" rel="noopener noreferrer">Saiba mais sobre o Google Nearby Connections</a>.</p>
+      </section>
+
+      <section>
+        <h2>4. Informações armazenadas no aparelho</h2>
+        <p>O aplicativo pode salvar localmente:</p>
+        <ul>
+          <li>Histórico de números sorteados.</li>
+          <li>Listas e resultados de participantes.</li>
+          <li>Histórico de vencedores e do Sorteio em Grupo.</li>
+          <li>Sessões de sorteio ainda não concluídas.</li>
+          <li>Preferência de tema claro ou escuro.</li>
+          <li>Tempo restante de benefícios obtidos por anúncio premiado.</li>
+        </ul>
+        <p>
+          Essas informações não são enviadas ao desenvolvedor e podem ser apagadas pelas opções de limpeza do aplicativo.
+          O backup automático de listas, nomes e históricos foi desativado para proteger essas informações. A desinstalação remove os dados locais.
+        </p>
+      </section>
+
+      <section>
+        <h2>5. Permissões utilizadas</h2>
+        <h3>Dispositivos próximos, Wi‑Fi e Bluetooth</h3>
+        <p>São utilizados para criar, localizar e conectar aparelhos no Sorteio em Grupo.</p>
+
+        <h3>Localização em versões antigas do Android</h3>
+        <p>
+          Algumas versões antigas do Android exigem permissão de localização para procurar aparelhos por Bluetooth ou Wi‑Fi.
+          O Sorteio Simples não acessa, armazena ou envia coordenadas geográficas por meio dessa permissão.
+        </p>
+
+        <h3>Internet e estado da rede</h3>
+        <p>São utilizados para carregar anúncios, anúncios premiados e serviços técnicos de terceiros integrados ao aplicativo.</p>
+      </section>
+
+      <section>
+        <h2>6. Publicidade pelo Google AdMob</h2>
+        <p>
+          O Sorteio Simples utiliza o Google Mobile Ads SDK, incluindo anúncios em banner, nativos, intersticiais e premiados.
+          Segundo o Google, o SDK pode coletar ou compartilhar automaticamente:
+        </p>
+        <ul>
+          <li>Endereço IP, que pode estimar a localização aproximada.</li>
+          <li>Interações com o aplicativo e com anúncios.</li>
+          <li>Informações de diagnóstico e desempenho.</li>
+          <li>Identificador de publicidade e outros identificadores do dispositivo ou da conta.</li>
+        </ul>
+        <p>
+          Esses dados podem ser utilizados para publicidade, medição, análise, personalização quando permitida e prevenção de fraudes.
+          O processamento é realizado pelo Google conforme suas políticas:
+        </p>
+        <ul>
+          <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de Privacidade do Google</a></li>
+          <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Como o Google utiliza dados em publicidade</a></li>
+          <li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank" rel="noopener noreferrer">Divulgação de dados do Google Mobile Ads SDK</a></li>
+        </ul>
+        <p>O usuário pode controlar ou excluir seu identificador de publicidade nas configurações de privacidade do Android e da Conta Google.</p>
+      </section>
+
+      <section>
+        <h2>7. Dados técnicos do Nearby Connections</h2>
+        <p>O Google informa que o Nearby Connections pode coletar métricas técnicas, como:</p>
+        <ul>
+          <li>Tempo, confiabilidade e velocidade das conexões.</li>
+          <li>Modelo do dispositivo e país.</li>
+          <li>Versão do sistema e da compilação.</li>
+          <li>Identificador do pacote do aplicativo.</li>
+        </ul>
+        <p>
+          Essa coleta é realizada pelos serviços do Google. O usuário pode controlar dados de uso e diagnóstico em
+          <strong>Configurações → Google → Uso e diagnóstico</strong>, conforme as opções disponíveis no aparelho.
+        </p>
+      </section>
+
+      <section>
+        <h2>8. Compartilhamento realizado pelo usuário</h2>
+        <p>
+          O aplicativo permite criar imagens ou textos contendo resultados. Esses conteúdos somente são enviados para WhatsApp,
+          redes sociais, e-mail ou outros aplicativos quando o próprio usuário toca em compartilhar e escolhe o destino.
+        </p>
+        <p>Após o compartilhamento, o tratamento das informações passa a seguir a política de privacidade do serviço escolhido.</p>
+      </section>
+
+      <section>
+        <h2>9. Compartilhamento com terceiros</h2>
+        <p>O aplicativo não vende informações pessoais.</p>
+        <p>Dados técnicos podem ser tratados pelos seguintes fornecedores:</p>
+        <ul>
+          <li>Google AdMob, para publicidade, análise e prevenção de fraude.</li>
+          <li>Google Play Services e Nearby Connections, para conexão e diagnóstico técnico.</li>
+        </ul>
+        <p>Esses fornecedores podem processar informações em outros países conforme suas próprias políticas e medidas de segurança.</p>
+      </section>
+
+      <section>
+        <h2>10. Segurança</h2>
+        <p>
+          O Sorteio Simples utiliza recursos de segurança do Android e conexões criptografadas fornecidas pelo Nearby Connections.
+          Os usuários devem conferir o código de segurança exibido nos dois aparelhos antes de aceitar uma conexão.
+        </p>
+        <p>Apesar das medidas adotadas, nenhum sistema eletrônico oferece garantia absoluta contra falhas, perda de dados ou acesso indevido.</p>
+      </section>
+
+      <section>
+        <h2>11. Retenção e exclusão</h2>
+        <p>Os históricos permanecem no aparelho até que:</p>
+        <ul>
+          <li>O usuário utilize a opção de limpar histórico.</li>
+          <li>Os dados do aplicativo sejam apagados nas configurações do Android.</li>
+          <li>O aplicativo seja desinstalado.</li>
+        </ul>
+        <p>
+          Como o desenvolvedor não mantém conta ou banco de dados próprio com nomes e resultados, não é necessário solicitar
+          ao desenvolvedor a exclusão desses dados locais. Informações tratadas pelo Google seguem seus próprios controles e prazos.
+        </p>
+      </section>
+
+      <section>
+        <h2>12. Crianças e uso educacional</h2>
+        <p>
+          O aplicativo não solicita idade, endereço, telefone, e-mail ou criação de conta. Quando utilizado em escolas ou atividades
+          envolvendo crianças e adolescentes, recomendamos acompanhamento de um responsável, professor ou organizador.
+        </p>
+        <p>Não devem ser inseridos nomes completos, informações sensíveis ou outros dados desnecessários para o sorteio.</p>
+      </section>
+
+      <section>
+        <h2>13. Direitos do usuário</h2>
+        <p>
+          Conforme a legislação aplicável, incluindo a Lei Geral de Proteção de Dados Pessoais — LGPD, o usuário pode solicitar
+          informações sobre o tratamento de dados sob responsabilidade direta do desenvolvedor.
+        </p>
+        <p>
+          Como nomes e resultados permanecem localmente ou são transmitidos diretamente entre aparelhos, o usuário pode controlar
+          sua exclusão pelo aplicativo ou pelas configurações do Android. Solicitações sobre dados tratados pelo Google devem utilizar
+          os controles e canais do Google.
+        </p>
+      </section>
+
+      <section>
+        <h2>14. Alterações nesta política</h2>
+        <p>
+          Esta Política de Privacidade poderá ser atualizada quando novos recursos, fornecedores ou práticas de tratamento de dados
+          forem adicionados. A data da revisão mais recente será indicada no início desta página.
+        </p>
+      </section>
+
+      <section>
+        <h2>15. Contato</h2>
+        <div class="contact">
+          <p><strong>Responsável:</strong><br>Flavio Creative</p>
+          <p><strong>E-mail:</strong><br><a href="mailto:flaviocoelhotoledo@gmail.com">flaviocoelhotoledo@gmail.com</a></p>
+        </div>
+      </section>
+    </article>
+
+    <footer>© 2026 Flavio Creative — Sorteio Simples.</footer>
+  </main>
+</body>
+</html>
