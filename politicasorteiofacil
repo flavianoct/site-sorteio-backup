@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Política de Privacidade do aplicativo Sorteio Fácil.">
+    <meta name="theme-color" content="#0759b8">
+    <title>Política de Privacidade — Sorteio Fácil</title>
+
+    <style>
+        :root {
+            color-scheme: light dark;
+            --primary: #0759b8;
+            --primary-light: #eaf3ff;
+            --background: #f4f7fb;
+            --surface: #ffffff;
+            --text: #142033;
+            --secondary: #5d6c80;
+            --border: #dce4ee;
+            --success: #087f5b;
+            --shadow: 0 12px 35px rgba(17, 47, 89, 0.08);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #70adff;
+                --primary-light: #132c4d;
+                --background: #0d1520;
+                --surface: #151f2d;
+                --text: #edf4ff;
+                --secondary: #afbed1;
+                --border: #2b3a4e;
+                --success: #63d9ae;
+                --shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            background: var(--background);
+            color: var(--text);
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.7;
+        }
+
+        header {
+            color: white;
+            background: linear-gradient(135deg, #063c86, #0877db, #16b8e5);
+            padding: 56px 20px;
+        }
+
+        .header-content,
+        main {
+            width: min(920px, 100%);
+            margin: 0 auto;
+        }
+
+        .app-label {
+            display: inline-block;
+            padding: 7px 13px;
+            margin-bottom: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.35);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.12);
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: clamp(30px, 6vw, 48px);
+            line-height: 1.15;
+        }
+
+        header p {
+            max-width: 680px;
+            margin: 16px 0 0;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        main {
+            padding: 28px 18px 64px;
+        }
+
+        .summary,
+        section {
+            margin-bottom: 18px;
+            padding: 26px;
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            background: var(--surface);
+            box-shadow: var(--shadow);
+        }
+
+        .summary {
+            border-left: 5px solid var(--success);
+        }
+
+        h2 {
+            margin: 0 0 12px;
+            color: var(--primary);
+            font-size: 22px;
+            line-height: 1.3;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        ul {
+            margin: 12px 0;
+            padding-left: 24px;
+        }
+
+        li {
+            margin: 7px 0;
+        }
+
+        a {
+            color: var(--primary);
+            font-weight: bold;
+            overflow-wrap: anywhere;
+        }
+
+        .updated {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 8px 12px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.14);
+            font-size: 14px;
+        }
+
+        .contact {
+            padding: 18px;
+            border-radius: 14px;
+            background: var(--primary-light);
+        }
+
+        footer {
+            padding: 28px 20px;
+            border-top: 1px solid var(--border);
+            color: var(--secondary);
+            text-align: center;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 42px 20px;
+            }
+
+            .summary,
+            section {
+                padding: 21px;
+                border-radius: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <div class="header-content">
+        <span class="app-label">Sorteio Fácil</span>
+        <h1>Política de Privacidade</h1>
+
+        <p>
+            Saiba como o aplicativo trata informações durante os sorteios
+            de números, nomes e grupos.
+        </p>
+
+        <div class="updated">
+            Última atualização: 25 de agosto de 2026
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="summary">
+        <h2>Resumo em linguagem simples</h2>
+
+        <ul>
+            <li>O aplicativo não exige criação de conta.</li>
+            <li>Listas e históricos são armazenados no aparelho.</li>
+            <li>A área de transferência somente é acessada quando você toca em “Colar lista”.</li>
+            <li>O modo Grupo utiliza Bluetooth, Wi-Fi e dispositivos próximos.</li>
+            <li>O aplicativo exibe anúncios fornecidos pelo Appodeal e redes parceiras.</li>
+            <li>Os nomes dos participantes não são enviados pelo aplicativo ao sistema de anúncios.</li>
+        </ul>
+    </div>
+
+    <section>
+        <h2>1. Sobre esta política</h2>
+
+        <p>
+            Esta Política de Privacidade explica como o aplicativo
+            <strong>Sorteio Fácil</strong>, desenvolvido por
+            <strong>Flaviano Coelho Toledo</strong>, trata informações
+            durante sua utilização.
+        </p>
+
+        <p>
+            O aplicativo oferece sorteios de números, nomes e grupos,
+            além de históricos, compartilhamento de resultados e recursos
+            opcionais relacionados à publicidade.
+        </p>
+    </section>
+
+    <section>
+        <h2>2. Informações armazenadas no aparelho</h2>
+
+        <p>O aplicativo pode armazenar localmente:</p>
+
+        <ul>
+            <li>Intervalos e números utilizados nos sorteios.</li>
+            <li>Listas e nomes de participantes.</li>
+            <li>Nomes sorteados e históricos.</li>
+            <li>Configurações do aplicativo, como o modo escuro.</li>
+            <li>Informações e resultados de sorteios em grupo.</li>
+        </ul>
+
+        <p>
+            Essas informações ficam no aparelho e não são enviadas pelo
+            desenvolvedor para um servidor próprio.
+        </p>
+
+        <p>
+            O usuário pode apagar listas e históricos utilizando as opções
+            disponíveis no aplicativo. A desinstalação também remove os
+            dados armazenados localmente.
+        </p>
+    </section>
+
+    <section>
+        <h2>3. Área de transferência</h2>
+
+        <p>
+            A função <strong>“Colar lista”</strong> acessa o conteúdo da
+            área de transferência somente depois que o usuário toca no
+            botão correspondente.
+        </p>
+
+        <p>
+            O conteúdo copiado é utilizado para preencher a lista de
+            participantes e é processado localmente. O aplicativo não
+            monitora continuamente a área de transferência e não envia
+            esse conteúdo para servidores de publicidade.
+        </p>
+
+        <p>
+            Ao utilizar <strong>“Copiar lista”</strong>, os nomes são
+            colocados na área de transferência para que possam ser
+            utilizados em outros aplicativos.
+        </p>
+    </section>
+
+    <section>
+        <h2>4. Modo Grupo e dispositivos próximos</h2>
+
+        <p>
+            O modo Grupo utiliza o serviço Google Nearby Connections para
+            localizar e conectar aparelhos próximos por tecnologias como
+            Bluetooth e Wi-Fi.
+        </p>
+
+        <p>Durante uma sessão, poderão ser compartilhados entre os aparelhos:</p>
+
+        <ul>
+            <li>Nome informado pelo participante.</li>
+            <li>Nome e código do grupo.</li>
+            <li>Posição escolhida.</li>
+            <li>Estado da participação.</li>
+            <li>Resultado do sorteio.</li>
+        </ul>
+
+        <p>
+            Essas informações são utilizadas para realizar o sorteio
+            solicitado. Outros participantes conectados ao grupo poderão
+            visualizar informações necessárias ao funcionamento da sessão.
+        </p>
+
+        <p>
+            O Google Play Services Nearby pode processar informações
+            técnicas, como modelo do aparelho, versão do sistema, país,
+            identificador do aplicativo e métricas de desempenho,
+            conexão e confiabilidade.
+        </p>
+
+        <p>
+            <a href="https://policies.google.com/privacy"
+               target="_blank"
+               rel="noopener noreferrer">
+                Política de Privacidade do Google
+            </a>
+        </p>
+    </section>
+
+    <section>
+        <h2>5. Permissões utilizadas</h2>
+
+        <p>Dependendo da versão do Android, o aplicativo pode solicitar:</p>
+
+        <ul>
+            <li>Bluetooth.</li>
+            <li>Dispositivos próximos.</li>
+            <li>Estado e alteração da conexão Wi-Fi.</li>
+            <li>Acesso à rede local.</li>
+            <li>Localização em versões antigas do Android.</li>
+            <li>Internet e estado da conexão.</li>
+        </ul>
+
+        <p>
+            As permissões de Bluetooth, Wi-Fi, dispositivos próximos e
+            localização são utilizadas para permitir que aparelhos próximos
+            encontrem e participem de um sorteio em grupo.
+        </p>
+
+        <p>
+            A localização não é utilizada pelo desenvolvedor para acompanhar
+            os deslocamentos do usuário. Entretanto, quando uma permissão de
+            localização é concedida, SDKs de publicidade presentes no
+            aplicativo poderão processar localização aproximada ou precisa,
+            conforme o consentimento do usuário e as políticas de cada
+            fornecedor.
+        </p>
+
+        <p>
+            O modo Grupo poderá não funcionar quando as permissões necessárias
+            forem recusadas.
+        </p>
+    </section>
+
+    <section>
+        <h2>6. Compartilhamento de resultados</h2>
+
+        <p>
+            Quando o usuário escolhe compartilhar um resultado, o aplicativo
+            cria um texto ou uma imagem e abre o menu de compartilhamento
+            do Android.
+        </p>
+
+        <p>
+            O conteúdo somente é enviado depois que o usuário escolhe o
+            aplicativo de destino. A partir desse momento, o tratamento das
+            informações também estará sujeito à política do aplicativo
+            selecionado.
+        </p>
+    </section>
+
+    <section>
+        <h2>7. Publicidade e dados tratados por terceiros</h2>
+
+        <p>
+            O Sorteio Fácil utiliza o <strong>Appodeal</strong> e redes
+            parceiras para exibir banners, anúncios nativos, anúncios de
+            tela cheia e vídeos recompensados.
+        </p>
+
+        <p>Esses serviços podem coletar ou processar:</p>
+
+        <ul>
+            <li>Endereço IP.</li>
+            <li>Identificador de publicidade.</li>
+            <li>Identificadores e características técnicas do aparelho.</li>
+            <li>Sistema operacional e versão do aplicativo.</li>
+            <li>Operadora, tipo e estado da conexão.</li>
+            <li>País ou localização aproximada.</li>
+            <li>Localização precisa, caso exista permissão concedida.</li>
+            <li>Impressões, visualizações e cliques em anúncios.</li>
+            <li>Diagnósticos e informações de desempenho.</li>
+            <li>Dados necessários para segurança e prevenção de fraude.</li>
+        </ul>
+
+        <p>Essas informações podem ser utilizadas para:</p>
+
+        <ul>
+            <li>Exibir e medir anúncios.</li>
+            <li>Selecionar anúncios personalizados ou não personalizados.</li>
+            <li>Limitar a frequência dos anúncios.</li>
+            <li>Medir desempenho e receita.</li>
+            <li>Prevenir fraude e abuso.</li>
+            <li>Melhorar a estabilidade dos serviços.</li>
+            <li>Cumprir obrigações legais.</li>
+        </ul>
+
+        <p>
+            O aplicativo pode utilizar redes mediadas como Google AdMob,
+            AppLovin, BidMachine, Bigo Ads, ironSource/Unity LevelPlay,
+            Meta Audience Network, Unity Ads e Vungle/Liftoff.
+            A disponibilidade pode variar conforme o país, aparelho e
+            configurações de publicidade.
+        </p>
+
+        <p>
+            <a href="https://appodeal.com/privacy-policy/"
+               target="_blank"
+               rel="noopener noreferrer">
+                Política de Privacidade do Appodeal
+            </a>
+        </p>
+
+        <p>
+            <a href="https://docs.appodeal.com/android/data-protection/app-privacy-details"
+               target="_blank"
+               rel="noopener noreferrer">
+                Informações de privacidade do SDK Appodeal
+            </a>
+        </p>
+    </section>
+
+    <section>
+        <h2>8. Consentimento e escolhas de privacidade</h2>
+
+        <p>
+            Quando exigido pela legislação aplicável, o sistema de publicidade
+            poderá apresentar opções de consentimento para anúncios
+            personalizados e tratamento de dados.
+        </p>
+
+        <p>
+            O usuário também pode limitar a personalização de anúncios nas
+            configurações de privacidade do Android ou redefinir e excluir
+            o identificador de publicidade.
+        </p>
+
+        <p>
+            Em determinadas regiões, poderão ser disponibilizadas opções
+            adicionais para recusar a venda ou o compartilhamento de
+            informações para publicidade direcionada.
+        </p>
+    </section>
+
+    <section>
+        <h2>9. Compartilhamento de dados</h2>
+
+        <p>
+            O desenvolvedor não comercializa diretamente listas de
+            participantes, nomes ou históricos de sorteios.
+        </p>
+
+        <p>
+            Dados técnicos e publicitários poderão ser processados ou
+            compartilhados com Appodeal, Google Play Services e redes de
+            anúncios parceiras para as finalidades descritas nesta política.
+        </p>
+
+        <p>
+            Informações de uma sessão em grupo são compartilhadas somente
+            com os aparelhos participantes, conforme as ações realizadas
+            pelos usuários.
+        </p>
+    </section>
+
+    <section>
+        <h2>10. Retenção e exclusão</h2>
+
+        <p>
+            Listas, preferências e históricos locais permanecem no aparelho
+            até que o usuário:
+        </p>
+
+        <ul>
+            <li>Apague as informações dentro do aplicativo.</li>
+            <li>Limpe os dados do aplicativo nas configurações do Android.</li>
+            <li>Desinstale o aplicativo.</li>
+        </ul>
+
+        <p>
+            Os dados tratados por serviços de terceiros seguem os períodos
+            de retenção definidos nas políticas desses fornecedores.
+        </p>
+    </section>
+
+    <section>
+        <h2>11. Segurança</h2>
+
+        <p>
+            São adotadas medidas razoáveis para reduzir acessos indevidos
+            e limitar o tratamento de informações ao necessário para o
+            funcionamento do aplicativo.
+        </p>
+
+        <p>
+            Nenhum método de armazenamento ou transmissão eletrônica é
+            totalmente isento de riscos. O usuário deve evitar inserir
+            documentos, senhas, dados financeiros ou outros conteúdos
+            confidenciais como nomes de participantes.
+        </p>
+    </section>
+
+    <section>
+        <h2>12. Direitos do usuário</h2>
+
+        <p>
+            Conforme a legislação aplicável, incluindo a Lei Geral de
+            Proteção de Dados — LGPD, o usuário poderá solicitar informações,
+            correção ou esclarecimentos sobre o tratamento de seus dados.
+        </p>
+
+        <p>
+            Como os dados dos sorteios são armazenados principalmente no
+            próprio aparelho, o desenvolvedor normalmente não possui acesso
+            a essas informações. Elas podem ser excluídas diretamente no
+            aplicativo ou pela desinstalação.
+        </p>
+    </section>
+
+    <section>
+        <h2>13. Crianças e adolescentes</h2>
+
+        <p>
+            O aplicativo não solicita intencionalmente cadastro, endereço,
+            telefone ou e-mail de crianças.
+        </p>
+
+        <p>
+            Pais ou responsáveis devem acompanhar o uso do aplicativo e
+            evitar que informações pessoais sensíveis sejam inseridas nas
+            listas de participantes.
+        </p>
+    </section>
+
+    <section>
+        <h2>14. Alterações nesta política</h2>
+
+        <p>
+            Esta Política de Privacidade poderá ser atualizada para refletir
+            novas funcionalidades, mudanças nos serviços utilizados ou
+            exigências legais.
+        </p>
+
+        <p>
+            A data da última atualização será modificada sempre que houver
+            uma alteração relevante.
+        </p>
+    </section>
+
+    <section>
+        <h2>15. Contato</h2>
+
+        <div class="contact">
+            <p><strong>Responsável:</strong> Flaviano Coelho Toledo</p>
+            <p><strong>Aplicativo:</strong> Sorteio Fácil</p>
+            <p><strong>Identificador Android:</strong> com.flaviocreative.soteio</p>
+            <p>
+                <strong>E-mail:</strong>
+                <a href="mailto:flaviocoelhotoledo@gmail.com">
+                    flaviocoelhotoledo@gmail.com
+                </a>
+            </p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    © 2026 Sorteio Fácil — Flaviano Coelho Toledo
+</footer>
+</body>
+</html>
