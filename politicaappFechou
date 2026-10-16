@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade do Fechou</title>
+<style>
+  body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #17251f; max-width: 760px; margin: 0 auto; padding: 24px 20px 64px; }
+  h1 { font-size: 1.7rem; line-height: 1.2; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; color: #0b7a55; }
+  small, .muted { color: #5a6b63; }
+  ul { padding-left: 1.2rem; }
+</style>
+</head>
+<body>
+
+<h1>Política de Privacidade do Fechou</h1>
+<p class="muted">Última atualização: 15 de outubro de 2026</p>
+
+<p>Esta política explica como o aplicativo <strong>Fechou</strong> (&ldquo;app&rdquo;) trata dados pessoais, em linguagem simples e de acordo com a Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/2018).</p>
+
+<h2>1. Quem é o responsável</h2>
+<p>O responsável pelo app é flaviocreative. Para qualquer assunto sobre privacidade, escreva para <a href="mailto:flaviocoelhotoledo@gmail.com">flaviocoelhotoledo@gmail.com</a>.</p>
+
+<h2>2. Resumo</h2>
+<ul>
+  <li>O app <strong>não tem cadastro nem login</strong>.</li>
+  <li>Os dados que você digita ficam <strong>só no seu aparelho</strong>. Eles não são enviados para servidores do desenvolvedor.</li>
+  <li>No plano grátis, o app mostra <strong>anúncios do Google AdMob</strong>, e o Google trata alguns dados do aparelho para isso (item 5).</li>
+  <li>A assinatura do plano Pro é cobrada e gerenciada pelo <strong>Google Play</strong> (item 6).</li>
+</ul>
+
+<h2>3. Dados que ficam no seu aparelho</h2>
+<p>Para montar orçamentos, o app guarda no aparelho o que você informa:</p>
+<ul>
+  <li><strong>Dados do seu negócio:</strong> nome, CPF ou CNPJ, telefone, e-mail, endereço, cidade e logo.</li>
+  <li><strong>Chave Pix e cidade</strong>, usadas para gerar o QR Code e o código &ldquo;copia e cola&rdquo;.</li>
+  <li><strong>Dados dos seus clientes:</strong> nome, telefone, e-mail e endereço.</li>
+  <li><strong>Serviços e orçamentos:</strong> itens, valores, descontos, observações, condições, datas e situação (rascunho, enviado, aprovado, recusado ou pago).</li>
+</ul>
+<p>Esses dados são usados apenas para o app funcionar. O desenvolvedor não tem acesso a eles. Você é o responsável pelos dados dos seus clientes que cadastra no app.</p>
+
+<h2>4. Quando você envia ou exporta algo</h2>
+<ul>
+  <li><strong>Enviar orçamento ou cobrança:</strong> ao tocar em enviar, o app abre o menu de compartilhar do Android (ou um link do WhatsApp) com o PDF e a mensagem. O conteúdo vai para o aplicativo e para a pessoa que você escolher, e passa a ser tratado conforme a política desse aplicativo. O desenvolvedor não recebe cópia.</li>
+  <li><strong>PDF:</strong> contém os dados que você cadastrou, inclusive a chave Pix, porque ela é necessária para o cliente pagar.</li>
+  <li><strong>Backup:</strong> é um arquivo que você mesmo exporta e guarda onde quiser. O backup automático do Android está desligado para este app.</li>
+</ul>
+
+<h2>5. Anúncios (plano grátis)</h2>
+<p>O plano grátis mostra anúncios do <strong>Google AdMob</strong>: um banner em algumas telas e, de vez em quando, um anúncio em tela cheia depois de você salvar um orçamento. Para veicular e medir anúncios e prevenir fraudes, o Google pode coletar e tratar, por meio do SDK de anúncios, dados como endereço IP, identificador de publicidade do Android, dados do aparelho e do app, interações com anúncios e informações de diagnóstico. O Google é responsável por esse tratamento. Saiba mais em <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
+<ul>
+  <li>Quando a lei exigir, o app mostra o <strong>formulário de consentimento</strong> do Google antes de pedir anúncios.</li>
+  <li>Você pode <strong>redefinir ou apagar o identificador de publicidade</strong> e limitar anúncios personalizados nas configurações do Android (Google &rarr; Anúncios).</li>
+  <li>Quem assina o plano <strong>Pro não vê anúncios</strong>.</li>
+</ul>
+
+<h2>6. Assinatura (plano Pro)</h2>
+<p>A compra é feita pelo <strong>Google Play</strong>. O Google processa o pagamento, e o desenvolvedor não recebe dados do seu cartão. O app consulta o Google Play para saber se há assinatura ativa na sua conta Google e guarda no aparelho apenas a informação de que a assinatura está ativa, para liberar os recursos do Pro. Você gerencia e cancela a assinatura na Play Store, em Pagamentos e assinaturas.</p>
+
+<h2>7. Por quanto tempo os dados ficam</h2>
+<p>Os dados do app ficam no aparelho até você apagá-los. Você pode excluir tudo apagando os dados do app nas configurações do Android ou desinstalando o app. Como o desenvolvedor não tem cópia, não é possível recuperar dados apagados, a não ser por um backup que você mesmo exportou.</p>
+
+<h2>8. Seus direitos</h2>
+<p>Pela LGPD, você pode pedir confirmação de tratamento, acesso, correção, anonimização, eliminação, portabilidade e informações sobre compartilhamento, além de revogar consentimentos. Como os dados do app ficam no seu aparelho, você já consegue ver, corrigir e apagar tudo dentro do app. Para pedidos sobre dados tratados pelo Google (anúncios e assinatura), use os canais do Google. Para qualquer outro pedido, escreva para <a href="mailto:flaviocoelhotoledo@gmail.com">flaviocoelhotoledo@gmail.com</a>.</p>
+
+<h2>9. Segurança</h2>
+<p>Os dados ficam na área privada do app no Android. Use bloqueio de tela no aparelho e guarde com cuidado os backups que exportar, pois eles contêm os dados do seu negócio e dos seus clientes.</p>
+
+<h2>10. Crianças</h2>
+<p>O app é voltado a profissionais e não é direcionado a crianças nem a adolescentes.</p>
+
+<h2>11. Mudanças nesta política</h2>
+<p>Se o app mudar a forma de tratar dados, esta política será atualizada e a data no topo será alterada.</p>
+
+
+</body>
+</html>
