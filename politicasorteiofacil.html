@@ -96,14 +96,14 @@
       <p class="eyebrow">Sorteio Fácil</p>
       <h1>Política de Privacidade</h1>
       <p class="lead">Transparência sobre os dados utilizados no sorteio de números, nomes e grupos próximos.</p>
-      <span class="updated">Última atualização: 30 de agosto de 2026</span>
+      <span class="updated">Última atualização: 11 de novembro de 2026</span>
     </div>
   </header>
 
   <main>
     <section class="summary" aria-label="Resumo da política">
       <div><strong>Sem conta</strong>O aplicativo não exige cadastro, login, telefone ou e-mail.</div>
-      <div><strong>Dados locais</strong>Listas, resultados e históricos permanecem no aparelho.</div>
+      <div><strong>Dados locais</strong>Listas, resultados, históricos e gravações permanecem no aparelho.</div>
       <div><strong>Serviços externos</strong>Anúncios e compras utilizam Appodeal e Google Play.</div>
     </section>
 
@@ -117,6 +117,7 @@
         <li><strong>Sorteio de números:</strong> configurações, números sorteados e histórico recente.</li>
         <li><strong>Sorteio de nomes:</strong> nomes informados pelo usuário, vencedores e histórico da rodada.</li>
         <li><strong>Sorteio em grupo:</strong> nome da atividade, posições, nomes dos participantes e resultados. O histórico do organizador fica somente no aparelho dele.</li>
+        <li><strong>Gravação de sorteios (Pro):</strong> vídeo da tela do próprio aplicativo, com data e hora, e o comprovante gerado a partir dele. Os arquivos ficam no aparelho (pasta Filmes &gt; Sorteio Fácil, ou armazenamento do aplicativo em versões antigas do Android).</li>
         <li><strong>Preferências:</strong> idioma, tema, estado da experiência sem anúncios e situação local do acesso Pro.</li>
       </ul>
       <div class="note">Evite inserir dados sensíveis ou informações pessoais desnecessárias nas listas de participantes. Quem organiza o sorteio é responsável pelos nomes inseridos e compartilhados.</div>
@@ -125,7 +126,13 @@
       <p>No modo Grupo, o aplicativo utiliza recursos do Google Nearby Connections, Bluetooth e Wi‑Fi para localizar e conectar aparelhos próximos. Os dados necessários para a sessão, como nome do participante, posição escolhida e resultado, são transmitidos diretamente entre os aparelhos participantes.</p>
       <p>O desenvolvedor não mantém banco de dados ou servidor para armazenar essas sessões. A conexão depende das permissões concedidas, da proximidade e das condições dos aparelhos e redes.</p>
 
-      <h2>4. Anúncios e tecnologias de terceiros</h2>
+      <h2>4. Gravação de sorteios e conferência da hora</h2>
+      <p>Usuários do plano Pro podem gravar a janela do próprio aplicativo durante um sorteio. A gravação só começa quando o usuário toca em Gravar, não captura outros aplicativos nem a tela do sistema, não grava áudio e não usa a câmera ou o microfone. O vídeo mostra a data e a hora em tempo real e o nome do evento, caso informado.</p>
+      <p>O vídeo e o comprovante são salvos apenas no aparelho e <strong>não são enviados ao desenvolvedor nem a nenhum servidor</strong>. O código de verificação exibido é calculado no aparelho a partir do arquivo de vídeo. Os arquivos só saem do aparelho quando o usuário escolhe Compartilhar; o usuário pode excluí-los a qualquer momento pelo aplicativo de galeria ou de arquivos.</p>
+      <p>Para indicar se o relógio do aparelho confere com a hora real, o aplicativo faz uma consulta HTTPS simples a um servidor do Google e compara a hora da resposta com a do aparelho. Essa consulta não envia dados pessoais nem o conteúdo dos sorteios; como em qualquer conexão de internet, o servidor pode ver o endereço IP.</p>
+      <div class="note">Atenção: se não houver conexão, a hora exibida é a do relógio do aparelho, e o comprovante informa isso. Quem grava é responsável por avisar os participantes de que o sorteio está sendo gravado e por usar o vídeo conforme a legislação aplicável.</div>
+
+      <h2>5. Anúncios e tecnologias de terceiros</h2>
       <p>A versão gratuita exibe anúncios fornecidos pelo <strong>Appodeal</strong> e por redes de mediação que podem incluir Google AdMob, AppLovin, BidMachine, Bigo Ads, ironSource, Meta Audience Network, Mintegral, Unity Ads e Vungle/Liftoff. A disponibilidade das redes pode variar por país, dispositivo e configuração de campanha.</p>
       <p>Esses provedores podem processar informações para fornecer, limitar, medir e proteger anúncios, incluindo:</p>
       <ul>
@@ -137,40 +144,41 @@
       </ul>
       <p>Quando exigido pela legislação da região, uma plataforma de gerenciamento de consentimento pode ser apresentada para registrar as escolhas sobre anúncios personalizados e parceiros. O tratamento realizado pelos provedores segue também suas próprias políticas. Consulte a <a href="https://appodeal.com/privacy-policy/" rel="noopener noreferrer">Política de Privacidade do Appodeal</a> e a <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Política de Privacidade do Google</a>.</p>
 
-      <h2>5. Compra do Sorteio Fácil Pro</h2>
+      <h2>6. Compra do Sorteio Fácil Pro</h2>
       <p>O acesso Pro é uma compra única processada pelo sistema de faturamento da Google Play. O aplicativo recebe da Google Play apenas as informações necessárias para verificar, reconhecer e restaurar a compra. O desenvolvedor não recebe nem armazena dados de cartão ou outras credenciais de pagamento.</p>
       <p>A Google pode manter o histórico da transação conforme os termos e políticas da conta Google do usuário.</p>
 
-      <h2>6. Permissões utilizadas</h2>
+      <h2>7. Permissões utilizadas</h2>
       <ul>
-        <li><strong>Internet e estado da rede:</strong> carregamento e medição de anúncios, verificação de compras e funcionamento de serviços externos.</li>
+        <li><strong>Internet e estado da rede:</strong> carregamento e medição de anúncios, verificação de compras, conferência da hora na gravação e funcionamento de serviços externos.</li>
         <li><strong>Bluetooth e aparelhos próximos:</strong> descoberta, conexão e comunicação no modo Sorteio em Grupo.</li>
         <li><strong>Wi‑Fi e aparelhos Wi‑Fi próximos:</strong> suporte à comunicação direta entre participantes.</li>
         <li><strong>Localização em versões antigas do Android:</strong> algumas versões do sistema exigem essa permissão para descobrir aparelhos por Bluetooth/Wi‑Fi. O aplicativo não salva um histórico de localização. Provedores de anúncios ainda podem inferir uma região aproximada pelo endereço IP.</li>
       </ul>
+      <p>A gravação de sorteios não exige permissão de gravação de tela, câmera, microfone ou armazenamento.</p>
       <p>As permissões podem ser negadas ou revogadas nas configurações do Android. Nesse caso, determinadas funções — especialmente o modo Grupo — podem ficar indisponíveis.</p>
 
-      <h2>7. Compartilhamento iniciado pelo usuário</h2>
-      <p>Ao escolher a função Compartilhar, o usuário decide qual aplicativo receberá o texto ou a imagem do resultado. A partir desse momento, o tratamento também estará sujeito à política do aplicativo escolhido. Nenhum compartilhamento é realizado automaticamente.</p>
+      <h2>8. Compartilhamento iniciado pelo usuário</h2>
+      <p>Ao escolher a função Compartilhar, o usuário decide qual aplicativo receberá o texto, a imagem, o vídeo ou o comprovante do resultado. A partir desse momento, o tratamento também estará sujeito à política do aplicativo escolhido. Nenhum compartilhamento é realizado automaticamente.</p>
 
-      <h2>8. Armazenamento, exclusão e retenção</h2>
-      <p>Listas e históricos locais permanecem até serem apagados dentro do aplicativo, até os dados do app serem limpos nas configurações do Android ou até a desinstalação. O aplicativo não oferece uma conta remota porque não mantém cadastro ou banco de dados próprio.</p>
+      <h2>9. Armazenamento, exclusão e retenção</h2>
+      <p>Listas, históricos e gravações locais permanecem até serem apagados dentro do aplicativo, até os dados do app serem limpos nas configurações do Android ou até a desinstalação. O aplicativo não oferece uma conta remota porque não mantém cadastro ou banco de dados próprio.</p>
       <p>Dados processados por Google Play, Appodeal e redes de anúncios seguem os períodos de retenção definidos por esses provedores. Para solicitações relacionadas a esses dados, pode ser necessário utilizar os controles ou canais oferecidos pelo respectivo serviço.</p>
 
-      <h2>9. Segurança e transferências internacionais</h2>
+      <h2>10. Segurança e transferências internacionais</h2>
       <p>São utilizados os mecanismos de segurança fornecidos pelo Android, pela Google Play e pelos SDKs integrados. Nenhuma transmissão ou armazenamento eletrônico é totalmente livre de riscos. Provedores externos podem processar dados em outros países, conforme suas políticas e as proteções exigidas pela legislação aplicável.</p>
 
-      <h2>10. Crianças e adolescentes</h2>
+      <h2>11. Crianças e adolescentes</h2>
       <p>O aplicativo não solicita cadastro, idade ou contato de crianças. Menores devem utilizar o aplicativo com orientação de um responsável e não devem inserir informações pessoais ou sensíveis nas listas.</p>
 
-      <h2>11. Direitos e escolhas de privacidade</h2>
+      <h2>12. Direitos e escolhas de privacidade</h2>
       <p>Conforme a legislação aplicável, incluindo a LGPD, o usuário pode solicitar informações sobre o tratamento realizado diretamente pelo desenvolvedor. Como os dados dos sorteios ficam no próprio aparelho, o usuário pode excluí-los pelo aplicativo ou pelas configurações do Android.</p>
       <p>Escolhas de publicidade podem ser disponibilizadas pelo formulário de consentimento dos parceiros conforme a região. Também é possível redefinir ou excluir o identificador de publicidade nas configurações de privacidade do Android.</p>
 
-      <h2>12. Alterações nesta política</h2>
+      <h2>13. Alterações nesta política</h2>
       <p>Esta política pode ser atualizada para acompanhar novas funcionalidades, alterações legais ou mudanças nos serviços utilizados. A data apresentada no início identifica a versão mais recente.</p>
 
-      <h2>13. Contato</h2>
+      <h2>14. Contato</h2>
       <p>Para dúvidas ou solicitações relacionadas à privacidade:</p>
       <p><strong>Responsável:</strong> Flaviano Coelho Toledo<br>
       <strong>E-mail:</strong> <a href="mailto:flaviocoelhotoledo@gmail.com">flaviocoelhotoledo@gmail.com</a></p>
